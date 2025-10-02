@@ -4,6 +4,8 @@ library(psych)
 library(readxl)
 library(stringr)
 library(lavaan)
+library(lavaanExtra)
+library(lavaanPlot)
 library(car)
 library(dplyr)
 library(boot)
@@ -282,4 +284,5 @@ lavaanPlot(
   coefs = TRUE,      # show path coefficients
   stand = TRUE,      # standardized
   stars = "regress"  # significance stars on regression paths
+
 ) # method 2
